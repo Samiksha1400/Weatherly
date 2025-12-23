@@ -5,11 +5,11 @@ It fetches real-time weather data from the OpenWeather API and updates the UI re
 ## 📱 Features : 
   🔍 Search weather by city name
   🌡 Displays:
-   • Current temperature
-   • Weather condition
-   • Feels-like temperature
-   • Humidity
-   • Wind speed
+   - Current temperature
+   - Weather condition
+   - Feels-like temperature
+   - Humidity
+   - Wind speed
   📆 Simple forecast view
   🔄 Pull-to-refresh support
   🔔 Local notifications when weather changes
@@ -17,18 +17,18 @@ It fetches real-time weather data from the OpenWeather API and updates the UI re
   ☁️ Firebase initialization support
 
 ## 🏗 Technologies Used :
-  • SwiftUI
-  • MVVM Architecture
-  • Combine Framework
-  • OpenWeather API
-  • UserNotifications
-  • FirebaseFirestore
+  - SwiftUI
+  - MVVM Architecture
+  - Combine Framework
+  - OpenWeather API
+  - UserNotifications
+  - FirebaseFirestore
 
 ## 🔁 Combine Usage :
-  • @Published for reactive UI updates
-  • AnyPublisher for network responses
-  • sink to handle API results
-  • AnyCancellable for memory management
+  - @Published for reactive UI updates
+  - AnyPublisher for network responses
+  - sink to handle API results
+  - AnyCancellable for memory management
 
 
 
