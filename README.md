@@ -2,7 +2,7 @@
 Weatherly is a SwiftUI iOS weather app built using MVVM architecture and the Combine framework.
 It fetches real-time weather data from the OpenWeather API and updates the UI reactively and notifies users when the weather changes.
 
-📱 Features : 
+## 📱 Features : 
   🔍 Search weather by city name
   🌡 Displays:
    • Current temperature
@@ -16,7 +16,7 @@ It fetches real-time weather data from the OpenWeather API and updates the UI re
   🎨 SwiftUI animations
   ☁️ Firebase initialization support
 
-🏗 Technologies Used :
+## 🏗 Technologies Used :
   • SwiftUI
   • MVVM Architecture
   • Combine Framework
@@ -24,11 +24,12 @@ It fetches real-time weather data from the OpenWeather API and updates the UI re
   • UserNotifications
   • FirebaseFirestore
 
-🔁 Combine Usage :
+## 🔁 Combine Usage :
   • @Published for reactive UI updates
   • AnyPublisher for network responses
   • sink to handle API results
   • AnyCancellable for memory management
+
 
 
 
