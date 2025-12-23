@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9FD4A4D2EF199530069EBE5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A9FD4A4C2EF199530069EBE5 /* FirebaseFirestore */; };
+		A9FD4A4F2EF199530069EBE5 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = A9FD4A4E2EF199530069EBE5 /* FirebaseInAppMessaging-Beta */; };
+		A9FD4A512EF199530069EBE5 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A9FD4A502EF199530069EBE5 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FD49422EEAD86E0069EBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FD49292EEAD86D0069EBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FD49302EEAD86D0069EBE5;
+			remoteInfo = Weatherly;
+		};
+		A9FD494C2EEAD86E0069EBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FD49292EEAD86D0069EBE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FD49302EEAD86D0069EBE5;
+			remoteInfo = Weatherly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9FD49312EEAD86D0069EBE5 /* Weatherly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FD49412EEAD86E0069EBE5 /* WeatherlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FD494B2EEAD86E0069EBE5 /* WeatherlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9FD49332EEAD86D0069EBE5 /* Weatherly */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Weatherly;
+			sourceTree = "<group>";
+		};
+		A9FD49442EEAD86E0069EBE5 /* WeatherlyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WeatherlyTests;
+			sourceTree = "<group>";
+		};
+		A9FD494E2EEAD86E0069EBE5 /* WeatherlyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WeatherlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FD492E2EEAD86D0069EBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FD4A512EF199530069EBE5 /* FirebaseMessaging in Frameworks */,
+				A9FD4A4D2EF199530069EBE5 /* FirebaseFirestore in Frameworks */,
+				A9FD4A4F2EF199530069EBE5 /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD493E2EEAD86E0069EBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD49482EEAD86E0069EBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9FD49282EEAD86D0069EBE5 = {
+			isa = PBXGroup;
+			children = (
+				A9FD49332EEAD86D0069EBE5 /* Weatherly */,
+				A9FD49442EEAD86E0069EBE5 /* WeatherlyTests */,
+				A9FD494E2EEAD86E0069EBE5 /* WeatherlyUITests */,
+				A9FD49322EEAD86D0069EBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FD49322EEAD86D0069EBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FD49312EEAD86D0069EBE5 /* Weatherly.app */,
+				A9FD49412EEAD86E0069EBE5 /* WeatherlyTests.xctest */,
+				A9FD494B2EEAD86E0069EBE5 /* WeatherlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FD49302EEAD86D0069EBE5 /* Weatherly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD49552EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "Weatherly" */;
+			buildPhases = (
+				A9FD492D2EEAD86D0069EBE5 /* Sources */,
+				A9FD492E2EEAD86D0069EBE5 /* Frameworks */,
+				A9FD492F2EEAD86D0069EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9FD49332EEAD86D0069EBE5 /* Weatherly */,
+			);
+			name = Weatherly;
+			packageProductDependencies = (
+				A9FD4A4C2EF199530069EBE5 /* FirebaseFirestore */,
+				A9FD4A4E2EF199530069EBE5 /* FirebaseInAppMessaging-Beta */,
+				A9FD4A502EF199530069EBE5 /* FirebaseMessaging */,
+			);
+			productName = Weatherly;
+			productReference = A9FD49312EEAD86D0069EBE5 /* Weatherly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FD49402EEAD86E0069EBE5 /* WeatherlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD49582EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "WeatherlyTests" */;
+			buildPhases = (
+				A9FD493D2EEAD86E0069EBE5 /* Sources */,
+				A9FD493E2EEAD86E0069EBE5 /* Frameworks */,
+				A9FD493F2EEAD86E0069EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FD49432EEAD86E0069EBE5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9FD49442EEAD86E0069EBE5 /* WeatherlyTests */,
+			);
+			name = WeatherlyTests;
+			packageProductDependencies = (
+			);
+			productName = WeatherlyTests;
+			productReference = A9FD49412EEAD86E0069EBE5 /* WeatherlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9FD494A2EEAD86E0069EBE5 /* WeatherlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FD495B2EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "WeatherlyUITests" */;
+			buildPhases = (
+				A9FD49472EEAD86E0069EBE5 /* Sources */,
+				A9FD49482EEAD86E0069EBE5 /* Frameworks */,
+				A9FD49492EEAD86E0069EBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FD494D2EEAD86E0069EBE5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9FD494E2EEAD86E0069EBE5 /* WeatherlyUITests */,
+			);
+			name = WeatherlyUITests;
+			packageProductDependencies = (
+			);
+			productName = WeatherlyUITests;
+			productReference = A9FD494B2EEAD86E0069EBE5 /* WeatherlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FD49292EEAD86D0069EBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A9FD49302EEAD86D0069EBE5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A9FD49402EEAD86E0069EBE5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A9FD49302EEAD86D0069EBE5;
+					};
+					A9FD494A2EEAD86E0069EBE5 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A9FD49302EEAD86D0069EBE5;
+					};
+				};
+			};
+			buildConfigurationList = A9FD492C2EEAD86D0069EBE5 /* Build configuration list for PBXProject "Weatherly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FD49282EEAD86D0069EBE5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A9FD4A4B2EF199530069EBE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9FD49322EEAD86D0069EBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FD49302EEAD86D0069EBE5 /* Weatherly */,
+				A9FD49402EEAD86E0069EBE5 /* WeatherlyTests */,
+				A9FD494A2EEAD86E0069EBE5 /* WeatherlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FD492F2EEAD86D0069EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD493F2EEAD86E0069EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD49492EEAD86E0069EBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FD492D2EEAD86D0069EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD493D2EEAD86E0069EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FD49472EEAD86E0069EBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FD49432EEAD86E0069EBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FD49302EEAD86D0069EBE5 /* Weatherly */;
+			targetProxy = A9FD49422EEAD86E0069EBE5 /* PBXContainerItemProxy */;
+		};
+		A9FD494D2EEAD86E0069EBE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FD49302EEAD86D0069EBE5 /* Weatherly */;
+			targetProxy = A9FD494C2EEAD86E0069EBE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9FD49532EEAD86E0069EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9FD49542EEAD86E0069EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FD49562EEAD86E0069EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weatherly/Preview Content\"";
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.Weatherly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9FD49572EEAD86E0069EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weatherly/Preview Content\"";
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.Weatherly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9FD49592EEAD86E0069EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.WeatherlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weatherly";
+			};
+			name = Debug;
+		};
+		A9FD495A2EEAD86E0069EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.WeatherlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weatherly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Weatherly";
+			};
+			name = Release;
+		};
+		A9FD495C2EEAD86E0069EBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.WeatherlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weatherly;
+			};
+			name = Debug;
+		};
+		A9FD495D2EEAD86E0069EBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B32Q869S2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Weatherly.WeatherlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weatherly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FD492C2EEAD86D0069EBE5 /* Build configuration list for PBXProject "Weatherly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD49532EEAD86E0069EBE5 /* Debug */,
+				A9FD49542EEAD86E0069EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FD49552EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "Weatherly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD49562EEAD86E0069EBE5 /* Debug */,
+				A9FD49572EEAD86E0069EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FD49582EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "WeatherlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD49592EEAD86E0069EBE5 /* Debug */,
+				A9FD495A2EEAD86E0069EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FD495B2EEAD86E0069EBE5 /* Build configuration list for PBXNativeTarget "WeatherlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FD495C2EEAD86E0069EBE5 /* Debug */,
+				A9FD495D2EEAD86E0069EBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9FD4A4B2EF199530069EBE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9FD4A4C2EF199530069EBE5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9FD4A4B2EF199530069EBE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A9FD4A4E2EF199530069EBE5 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9FD4A4B2EF199530069EBE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		A9FD4A502EF199530069EBE5 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9FD4A4B2EF199530069EBE5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9FD49292EEAD86D0069EBE5 /* Project object */;
+}
